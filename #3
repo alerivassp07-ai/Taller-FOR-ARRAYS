@@ -1,0 +1,14 @@
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] ciudades = { "Bogota", "Tumaco", "Cali", "Cartagena" };
+
+            Console.WriteLine("Cantidad de ciudades: " + ciudades.Length);
+        }
+    }
+}
