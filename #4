@@ -1,0 +1,23 @@
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double[] calificaciones = { 4.0, 3.5, 4.5, 5.0 };
+
+            double suma = 0;
+
+            foreach (double nota in calificaciones)
+            {
+                suma += nota;
+            }
+
+            double promedio = suma / calificaciones.Length;
+
+            Console.WriteLine("Promedio: " + promedio);
+        }
+    }
+}
