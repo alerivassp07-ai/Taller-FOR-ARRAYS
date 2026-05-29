@@ -1,0 +1,19 @@
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] ventas = { 500, 120, 300, 800, 250 };
+
+            Array.Sort(ventas);
+
+            foreach (int venta in ventas)
+            {
+                Console.WriteLine(venta);
+            }
+        }
+    }
+}
