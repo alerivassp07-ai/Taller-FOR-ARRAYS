@@ -1,0 +1,20 @@
+using System;
+using System.Linq;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] precios = { 20, 60, 45, 80, 100 };
+
+            var filtrados = precios.Where(precio => precio > 50);
+
+            foreach (int precio in filtrados)
+            {
+                Console.WriteLine(precio);
+            }
+        }
+    }
+}
