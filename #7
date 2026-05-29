@@ -1,0 +1,17 @@
+using System;
+using System.Linq;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] edades = { 18, 25, 30, 22, 40 };
+
+            Console.WriteLine("Maximo: " + edades.Max());
+            Console.WriteLine("Minimo: " + edades.Min());
+            Console.WriteLine("Suma: " + edades.Sum());
+        }
+    }
+}
