@@ -1,0 +1,26 @@
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] arreglo1 = { 1, 2, 3, 4, 5 };
+            int[] arreglo2 = { 3, 5, 7, 8, 1 };
+
+            Console.WriteLine("Elementos en comun:");
+
+            for (int i = 0; i < arreglo1.Length; i++)
+            {
+                for (int j = 0; j < arreglo2.Length; j++)
+                {
+                    if (arreglo1[i] == arreglo2[j])
+                    {
+                        Console.WriteLine(arreglo1[i]);
+                    }
+                }
+            }
+        }
+    }
+}
