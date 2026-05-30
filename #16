@@ -1,0 +1,16 @@
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool[,] asistencia = new bool[3, 5];
+
+            asistencia[1, 4] = true;
+
+            Console.WriteLine(asistencia[1, 4]);
+        }
+    }
+}
